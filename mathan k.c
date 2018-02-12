@@ -1,14 +1,16 @@
 #include <stdio.h>
-
-int main(void)
+#include<conio.h>
+int main()
 {
-	int i,num,fact=1;
-	printf("enter the number:");
-	scanf("%d",&num);
-	for(i=1;i<=num;i++)
-	{
-		fact=fact*i;
-	}
-	printf("\n%d",fact);
-	return 0;
+int i, Number; 
+long Factorial = 1;
+printf("\n Please Enter any number to Find Factorial\n");
+scanf("%d", &Number);
+for (i = 1; i <= Number; i++)
+{
+Factorial = Factorial * i;
+}
+printf("\nFactorial of %d = %d\n", Number, Factorial);
+return 0;
+getch();
 }
