@@ -1,10 +1,14 @@
 #include <stdio.h>
-int main() {
-int n,fact=1,i;
-scanf("%d",&n);
-for(i=1;i<=n;i++)
+
+int main(void)
 {
-    fact=fact*i;
-}
-printf("%d",fact);
+	int i,num,fact=1;
+	printf("enter the number:");
+	scanf("%d",&num);
+	for(i=1;i<=num;i++)
+	{
+		fact=fact*i;
+	}
+	printf("\n%d",fact);
+	return 0;
 }
