@@ -1,16 +1,18 @@
-#include <stdio.h>
-int main(void) {
-	int min;
-	int h,m;
-	scanf("%d",&min);
-	h=min/60;
-	m=min%60;
-	printf("the hour is %d\n",h);
-	if(min%60==0)
-	{
-	printf("the minutes is 0" );
-	}
-	else
-	printf("the minutes is %d",m);
-	return 0;
+#include<stdio.h>
+#include<conio.h>
+int main(void) 
+{
+int min,hrs,mins,secs=00;
+printf("enter the time in minutes:");
+scanf("%d",&min);
+hrs=min/60;
+mins=min%60;
+if(mins>60)
+{
+secs=mins%60;
+mins=mins-secs;
+}
+printf("%d %d %d",hrs,mins,secs);
+return 0;
+getch();
 }
