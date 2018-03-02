@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main(void) 
+int main() 
 {
 int array[20];
 int n,i,max=array[0];
