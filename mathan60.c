@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main(void) 
+int main() 
 {
 int a=1,b=1,i,n,c;
 printf("\n enter the range to print the Fibonacci numbers\n");
