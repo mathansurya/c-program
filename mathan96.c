@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<conio.h>
-int main()
+void main()
 {
 int num,i,flag=0;
 scanf("%d",&num);
@@ -19,6 +19,4 @@ printf("\n no");
 else
 {
 printf("\n yes");
-}
-return 0;
 }
